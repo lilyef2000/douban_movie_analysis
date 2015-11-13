@@ -51,7 +51,7 @@ class AnalysisSpider(CrawlSpider):
                     print len(word)
                     print word
 
-                    words=jieba.cut(word,cut_all=False) # 把字符串分成中文词语
+                    words=jieba.cut(word,cut_all=False) # 把字符串分成中文词语 cut_all=False表示为精确模式
                     for n in words:
                         print n
                         x.append(n) # 结果写进x列表
