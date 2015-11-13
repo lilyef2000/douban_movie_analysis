@@ -43,5 +43,5 @@ def pic_show():
     plt.subplots_adjust(bottom = 0.15)
     plt.xlabel(u"分类出现次数（一部影片分类可以多个）",fontproperties=font)
     plt.savefig("douban_analysis_new.png")  
-
+    
 pic_show()
